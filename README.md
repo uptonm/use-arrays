@@ -1,3 +1,5 @@
+![Jest Testing](https://github.com/uptonm/use-arrays/workflows/Jest%20Testing/badge.svg?branch=master)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
