@@ -1,14 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import { App } from "./components/App";
+import * as serviceWorker from "./serviceWorker";
+import { LocalStorage } from "./components/LocalStorage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LocalStorage />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want your app to work offline and load faster, you can change
